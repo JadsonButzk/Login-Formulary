@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+div#login {
+    border: 1px solid red;
+    flex-grow: 1;
+    height: 100vh;
+}
+div#ilustracao {
+    border: 1px solid black;
+    flex-grow: 1;
+    height: 100vh;
+}
+div#ilustracao img{
+    max-height: 100vh;
+}
